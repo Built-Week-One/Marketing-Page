@@ -33,19 +33,6 @@ const siteContent = {
         "1" : "We help donors provide hot meals to school children in need."
     },  
     
-    
-    // Images 
-    "img" : {
-        
-        "0" : "img/Auburn High School Cafeteria copy.jpg",
-        "1" : "img/CSS-0058-food-donation-min.jpg",
-        "2" : "img/download.jpg",
-        "3" : "img/GettyImages-881859504.jpg",
-        "4" : "img/IMG_7319-1.jpg",
-        "5" : "img/maxresdefault.jpg"        
-
-    },
-    
     "menu" : { // Menu all Pages 
 
         "0" : "HOME",
@@ -67,7 +54,7 @@ const siteContent = {
 };
 
 // Get paragraphs
-
+// Get Button text
 
  
 
