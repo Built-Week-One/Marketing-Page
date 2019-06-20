@@ -21,14 +21,7 @@ class Carousel {
           this.rightButtonToggle();
        })
 
-       this.leftButton.addEventListener('mousedown', () => {
-        //this.leftButtonToggleForever();
-
-         });
-
-            this.rightButton.addEventListener('mousedown', () => {
-       //this.rightButtonToggleForever();
-         });
+       
     
         }
     leftButtonToggle(){

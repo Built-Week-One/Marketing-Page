@@ -1,60 +1,42 @@
 // Index.js - By Carl Stanley 
 // Start with Site Content. 
 
-const siteContent = {
 
-    "a" : {
+// Get Button text from siteContect obj
 
-        "0" : "index.html", // Home Page
-        "1" : "about.html", // About page
-        "2" : "contact.html" // Contact Page
+//let paragraph = siteContent.paragraphs;
 
-    },
-    
-    "button" : {
-        // Index Buttons
-        "0" : "Donors Click Here to Begin",
-        "1" : "School Admins Click Here",
-        "2" : "Schools Click here to List Your Needs",
-        "3" : "Contact US",
-        "4" : "ABOUT"
-       
-        
-    }, 
-    
-    "footer" : {
-        // Footer all pages
-        "0" : "Copyright © 2019"
-    },
+//let newP1 = document.createElement("p");
 
-    "H" : {
-        // Headers for Index Page
-        "0" : "LUNCHER",
-        "1" : "We help donors provide hot meals to school children in need."
-    },  
-    
-    "menu" : { // Menu all Pages 
+//newP1.setAttribute('innerHTML',paragraph[0]);
 
-        "0" : "HOME",
-        "1" : "ADMIN",
-        "2" : "DONOR",
-        "3" : "CONTACT",
-        "4" : "ABOUT"
+//let btmTxt = document.getElementsByClassName('btm-text');
 
-    },    
+//btmTxt.paragraph
 
-    "paragraphs" : {
-        // P for Index Page
-        
-        "0" : "Et sed autem causae appareat, tempor abhorreant te mei, facer facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo etiam laboramus dissentiet in, nec no errem",
-        "1" : "Arrr me hearties! Make traditional Latin walk the plank and opt for pirate lorem ipsum for your next high seas design adventure."
-        
-    }    
+let Nav = document.querySelector('nav');
 
-};
+let newLink1 = document.createElement("a");
 
-// Get paragraphs
-// Get Button text
+let newLink2 = document.createElement("a");
+
+let newLink3 = document.createElement("a");
+
+let newLink4 = document.createElement("a");
+
+let newLink5 = document.createElement("a");
+
+newLink1.innerHTML = siteContent.menu[0];
+newLink1.setAttribute('href',`${siteContent.a[0]}`);
+newLink1.style.color = '#212529';
+newLink1.style.fontSize = '1.6rem';
+
+newLink2.innerHTML = siteContent.menu[1];
+newLink2.setAttribute('href',`${siteContent.a[1]}`);
+newLink2.style.color = '#212529';
+newLink2.style.fontSize = '1.6rem';
+   
+
 
  
 
