@@ -52,9 +52,7 @@ footer {
    
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
-        border: 1px solid black;
-        width: 80%;
+        
         
         .btn {
 
@@ -118,4 +116,20 @@ p {
     margin: 10px 0;
     padding: 5px;
     border: 1px solid #999;
+}
+
+.btm-buttons button{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*Button Color*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+.btm-buttons button:active {/*on Click*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*Move down*/
+    border-bottom: none;/*disappears*/
 }
