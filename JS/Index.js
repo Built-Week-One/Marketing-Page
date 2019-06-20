@@ -37,16 +37,12 @@ const siteContent = {
     // Images 
     "img" : {
         
-        "0" : "img/",
-        "1" : "img/",
-        "2" : "img/",
-        "3" : "img/",
-        "4" : "img/",
-        "5" : "img/",
-        "6" : "img/",
-        "7" : "img/",
-        "8" : "img/"
-        
+        "0" : "img/Auburn High School Cafeteria copy.jpg",
+        "1" : "img/CSS-0058-food-donation-min.jpg",
+        "2" : "img/download.jpg",
+        "3" : "img/GettyImages-881859504.jpg",
+        "4" : "img/IMG_7319-1.jpg",
+        "5" : "img/maxresdefault.jpg"        
 
     },
     
@@ -65,7 +61,6 @@ const siteContent = {
         
         "0" : "Et sed autem causae appareat, tempor abhorreant te mei, facer facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo etiam laboramus dissentiet in, nec no errem",
         "1" : "Et sed autem causae appareat, tempor abhorreant te mei, facer facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo etiam laboramus dissentiet in, nec no errem"
-
         
     }    
 
