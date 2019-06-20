@@ -56,13 +56,19 @@ const siteContent = {
 
     },    
 
-    "p" : {
+    "paragraphs" : {
         // P for Index Page
         
         "0" : "Et sed autem causae appareat, tempor abhorreant te mei, facer facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo etiam laboramus dissentiet in, nec no errem",
-        "1" : "Et sed autem causae appareat, tempor abhorreant te mei, facer facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo etiam laboramus dissentiet in, nec no errem"
+        "1" : "Arrr me hearties! Make traditional Latin walk the plank and opt for pirate lorem ipsum for your next high seas design adventure."
         
     }    
 
 };
+
+// Get paragraphs
+
+
+ 
+
 
