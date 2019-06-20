@@ -3,9 +3,23 @@
 @import 'carousel.less';
 @import 'variables.less';
 
-.btm-buttons{
+.container {
 
-    
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+
+/* @media query */
+@media (max-width: 500px) {
+
+     width: 500px;   
+
+    }
+	
+}
+
+.btm-buttons{
+   
     display: flex;
     flex-direction: row;
     margin: 0 auto;

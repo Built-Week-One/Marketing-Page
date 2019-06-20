@@ -161,9 +161,9 @@ h5 {
   overflow: hidden;
   margin-top: 16px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .carousel {
-    width: 1200px;
+    width: 900px;
   }
 }
 .carousel .left-button,
@@ -200,6 +200,17 @@ h5 {
 .carousel img {
   width: 80%;
   display: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  /* @media query */
+}
+@media (max-width: 500px) {
+  .container {
+    width: 500px;
+  }
 }
 .btm-buttons {
   display: flex;
