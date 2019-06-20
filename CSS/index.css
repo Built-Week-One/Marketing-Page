@@ -1,11 +1,8 @@
-.width-100 {
-  width: 100%;
-}
-.border-bottom-grey {
-  border-bottom: 1px solid lightgrey;
+.width-carousel {
+  width: 75%;
 }
 .carousel {
-  width: 100%;
+  width: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,6 +49,6 @@
   transform: translate(0, -50%);
 }
 .carousel img {
-  width: 100%;
+  width: 75%;
   display: none;
 }
