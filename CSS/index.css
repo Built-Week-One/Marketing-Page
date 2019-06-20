@@ -1,8 +1,8 @@
 .width-carousel {
-  width: 95%;
+  width: 80%;
 }
 .carousel {
-  width: 95%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@
 .carousel .right-button {
   display: flex;
   justify-content: center;
-  align-items: none;
+  align-items: center;
   flex-direction: row;
   color: #fff;
   background-color: #333;
@@ -49,6 +49,21 @@
   transform: translate(0, -50%);
 }
 .carousel img {
-  width: 95%;
+  width: 80%;
   display: none;
+}
+.btn-buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 80%;
+}
+.footer {
+  width: 100%;
+  border-top: 2px dashed silver;
+  background: #60acf4;
+}
+.btn {
+  width: 200px;
 }
