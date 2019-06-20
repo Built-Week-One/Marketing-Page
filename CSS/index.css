@@ -258,9 +258,6 @@ footer {
   border: 1px solid black;
   width: 80%;
 }
-.btn {
-  border: 1 solid aquamarine;
-}
 .btm-text {
   display: flex;
   flex-direction: row;
@@ -272,10 +269,6 @@ footer {
   width: 100%;
   border-top: 2px dashed silver;
   background: #60acf4;
-}
-.btn {
-  width: 250px;
-  height: 50px;
 }
 p {
   margin: 10px 0;

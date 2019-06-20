@@ -14,7 +14,9 @@
 
 //btmTxt.paragraph
 
-let Nav = document.querySelector('nav');
+const navigation = document.querySelector('Nav');
+
+let Nav = document.getElementsByTagName('Nav');
 
 let newLink1 = document.createElement("a");
 
@@ -35,7 +37,10 @@ newLink2.innerHTML = siteContent.menu[1];
 newLink2.setAttribute('href',`${siteContent.a[1]}`);
 newLink2.style.color = '#212529';
 newLink2.style.fontSize = '1.6rem';
-   
+ 
+
+
+ 
 
 
  
