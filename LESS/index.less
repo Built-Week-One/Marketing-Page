@@ -1,5 +1,5 @@
 //Order Matters..
-
+@import './header.less';
 @import './variables.less';
 @import './mixins.less';
 @import './reset.less';
@@ -12,15 +12,10 @@
 @import './components/carousel/carousel.less';
 @import 'mixins.less';
 
-
-
 html {
 
 	display: table;
     margin: 0 auto;
-     
-     
-
 }
 
 body {
@@ -37,25 +32,10 @@ body {
     background-color: azure;
     line-height: 3.5;
 }
- 
-  .header {
-
-    width: 100%;
-    background-color: #65BFD2;
-    height: 75px;
-}
-
-
-footer {
-
-    width: 100%;
-    background-color: #65BFD2;
-    height: 75px;
-}
 
 .header-container {
 
-    width: 100%;
+    
     background-color: #65BFD2;
      
 }
@@ -71,7 +51,7 @@ footer {
 @media @mobile {
 
      width: 500px;  
-     
+     line-height: 1.4;
      .btm-text{
     
         display: flex;
@@ -79,37 +59,11 @@ footer {
         margin: 0 auto;
          width: 50%;   
         
-    }
-
-    .nav {
-
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    
-    }
-
-   
+        }   
 
     }
 	
 }
-
-.nav {
-
-    display: flex;
-    flex-direction: row;
-
-}
-.nav .item{
-   
-    display: flex;
-    background-color: #dbc97e;                  
-    border: #67696c .5px solid;
-    width: 33.33%;
-    margin: 5px 1px 0px 1px;
-    } 
 
 .btm-text{
     
@@ -121,28 +75,6 @@ footer {
     border: #67696c 1px dashed;
    
 }
-
-
-
-.footer {
-
-    width: 100%;
-    border-top: 2px dashed silver;
-    background: rgb(96, 172, 244);
-} 
-
-a {
-    text-decoration: none;
-    color: #67696c;
-    font-size: .5rem;
-
-}
-
-a:hover {
-
-    background-color: #c0e684;
-}
- 
 
 p {
     margin: 10px 0;
