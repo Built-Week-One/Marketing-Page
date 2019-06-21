@@ -148,10 +148,10 @@ h5 {
 /* Your code starts here! */
 /*___________________________________________________________________________________________________________________*/
 .width-carousel {
-  width: 80%;
+  width: 85%;
 }
 .carousel {
-  width: 80%;
+  width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,7 +173,7 @@ h5 {
   align-items: center;
   flex-direction: row;
   color: #fff;
-  background-color: #333;
+  background-color: #dbc97e;
   font-size: 40px;
   border-radius: 50%;
   position: absolute;
@@ -183,9 +183,9 @@ h5 {
 }
 .carousel .left-button:hover,
 .carousel .right-button:hover {
-  color: #333;
+  color: #dbc97e;
   background-color: #fff;
-  border: 2px solid #333;
+  border: 2px solid #dbc97e;
 }
 .carousel .left-button {
   top: 50%;
@@ -198,7 +198,7 @@ h5 {
   transform: translate(0, -50%);
 }
 .carousel img {
-  width: 80%;
+  width: 85%;
   display: none;
 }
 html,
@@ -272,14 +272,20 @@ footer {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  width: 80%;
+  width: 85%;
   padding: 2px 1px 2px 1px;
-  border: #67696c 1px solid;
+  border: #67696c 1px dashed;
 }
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
   background: #60acf4;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: #c0e684;
 }
 p {
   margin: 10px 0;
