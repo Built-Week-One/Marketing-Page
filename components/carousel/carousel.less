@@ -1,20 +1,21 @@
 
 .carousel {
+ 
   .width-carousel();
     .flex(center, center);
     height: 500px;
     position: relative;
     overflow: hidden;
     margin-top: 16px;
-    @media(min-width: 90%){
-      width: 90%;
+    @media(min-width: 100%){
+      width: 100%;
     }
     .left-button, .right-button {
       .flex(center);
       color: @color-white;
       background-color: @color-primary;
-      font-size: 40px;
-      border-radius: 50%;
+      font-size: 30px;
+      border-radius: 30%;
       position: absolute;
       width: 50px;
       height: 50px;
@@ -22,21 +23,21 @@
       &:hover {
         color: @color-primary;
         background-color: @color-white;
-        border: 2px solid @color-primary;
+        border: 1px solid @color-primary;
       }
     }
     .left-button {
-      top: 50%; 
-      left: 25px;
+      top: 40%; 
+      left: 20px;
       transform: translate(0, -50%);
     }
     .right-button {
-      top: 50%; 
-      right: 25px;
+      top: 40%; 
+      right: 20px;
       transform: translate(0, -50%);
     }
     img {
       .width-carousel();
-      display: none;
+      display: none;      
     }
   }
