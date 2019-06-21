@@ -1,3 +1,6 @@
+.width-carousel {
+  width: 85%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -126,7 +129,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  border-width: 5px 5px 5px 5px;
+}
+/* Your code starts here! */
+/*___________________________________________________________________________________________________________________*/
 .dropdown {
   z-index: 2;
   position: absolute;
@@ -213,30 +236,6 @@ footer {
 }
 footer p {
   margin-top: 50px;
-=======
-/* Set every element's box-sizing to border-box */
-* {
-  box-sizing: border-box;
-}
-html,
-body {
-  height: 100%;
-  font-family: 'Titillium Web', sans-serif;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Bangers', cursive;
-  letter-spacing: 1px;
-  margin-top: 15px;
-  border-width: 5px 5px 5px 5px;
-}
-/* Your code starts here! */
-/*___________________________________________________________________________________________________________________*/
-.width-carousel {
-  width: 85%;
 }
 .carousel {
   width: 85%;
@@ -380,5 +379,4 @@ a:hover {
 p {
   margin: 10px 0;
   padding: 5px;
-
 }
