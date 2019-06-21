@@ -215,6 +215,15 @@ body {
   align-content: center;
   vertical-align: middle;
 }
+body {
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  color: #67696c;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  overflow-x: hidden;
+}
 .header {
   width: 100%;
   background-color: #65BFD2;
@@ -225,44 +234,30 @@ footer {
   background-color: #65BFD2;
   height: 75px;
 }
+a {
+  background-color: #be9e21;
+  text-emphasis: none;
+  text-decoration: none;
+}
 .container {
   display: flex;
   flex-direction: column;
   width: 900px;
   /* @media query */
 }
+.container .nav {
+  display: flex;
+  flex-direction: row;
+}
 @media only screen and (max-width: 500px) {
   .container {
     width: 500px;
   }
-  .container .btm-buttons {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    border: 1px solid black;
-    width: 80%;
-  }
-  .container .btm-buttons .btn {
-    width: 50px;
-  }
-  .container .btm-buttons .btm-text {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-}
-.btm-buttons {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  border: 1px solid black;
-  width: 80%;
 }
 .btm-text {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  border: 1px solid black;
   width: 80%;
 }
 .footer {
@@ -273,5 +268,4 @@ footer {
 p {
   margin: 10px 0;
   padding: 5px;
-  border: 1px solid #999;
 }
