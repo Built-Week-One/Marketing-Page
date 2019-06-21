@@ -243,10 +243,10 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 500px;
+  height: 400px;
   position: relative;
   overflow: hidden;
-  margin-top: 16px;
+  margin-top: 5px;
 }
 @media (min-width: 100%) {
   .carousel {
@@ -261,8 +261,8 @@ footer p {
   flex-direction: row;
   color: #fff;
   background-color: #65BFD2;
-  font-size: 40px;
-  border-radius: 50%;
+  font-size: 30px;
+  border-radius: 30%;
   position: absolute;
   width: 50px;
   height: 50px;
@@ -272,16 +272,16 @@ footer p {
 .carousel .right-button:hover {
   color: #65BFD2;
   background-color: #fff;
-  border: 2px solid #65BFD2;
+  border: 1px solid #65BFD2;
 }
 .carousel .left-button {
-  top: 50%;
-  left: 25px;
+  top: 40%;
+  left: 20px;
   transform: translate(0, -50%);
 }
 .carousel .right-button {
-  top: 50%;
-  right: 25px;
+  top: 40%;
+  right: 20px;
   transform: translate(0, -50%);
 }
 .carousel img {
@@ -296,25 +296,19 @@ html {
   display: table;
   margin: 0 auto;
 }
-
 body {
-
-  line-height: 1.4;
-  font-family: 'Roboto', sans-serif;
-  color: #67696c;
-  font-size: 16px;
-  font-weight: 200;
-  letter-spacing: 0.10px;
-  overflow-x: hidden;
-  overflow-y: scroll;
   display: table;
   text-align: left;
   align-content: center;
   vertical-align: middle;
   margin: auto 0;
-
-  
-
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #67696c;
+  font-size: 16px;
+  font-weight: 300;
+  overflow-x: hidden;
 }
 .header {
   width: 100%;
@@ -325,8 +319,6 @@ footer {
   width: 100%;
   background-color: #65BFD2;
   height: 75px;
-  font-size: .75rem;
-  margin: 0 auto;
 }
 .header-container {
   width: 100%;
@@ -347,8 +339,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 100%;
-    padding: 5px 5px 5px 5px;
+    width: 50%;
   }
   .container .nav {
     display: flex;
