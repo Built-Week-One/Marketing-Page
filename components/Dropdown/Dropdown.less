@@ -1,19 +1,13 @@
 .dropdown {
   z-index: 2;
   position: absolute;
-  right: 10px;
   cursor: pointer;
   margin-top:20px;
   background-color: #65BFD2;
   display: none;
    .dropdown-button {
       padding: 15px;
-      border: 3px solid black;
-      color: @white;
-      font-size: 20px;
-      font-weight: bold;
-      &:hover {
-        background-color: @Button-colors;
+
       }
     }
     .dropdown-content {
@@ -23,8 +17,6 @@
       flex-direction: column;
       align-items: center;  
       margin-top: 40px; //previus 10px
-      border: 2.5px solid @lambda-red;
-      background-color: @white;
     }
     .dropdown-link {
       width: 100%;
@@ -32,10 +24,7 @@
       padding: 15px 0;
       font-size: 18px;
       text-decoration: none;
-      color: @Button-colors;
-      &:hover {
-        color: @white;
-        background-color: @Button-colors;
+
       }
     }
     .dropdown-hidden {
