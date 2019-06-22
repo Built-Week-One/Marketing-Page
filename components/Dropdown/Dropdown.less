@@ -1,30 +1,30 @@
 .dropdown {
   z-index: 2;
   position: absolute;
-  right: 95px;
+  right: 10px;
   cursor: pointer;
   margin-top:20px;
+  background-color: #65BFD2;
   display: none;
-  
    .dropdown-button {
       padding: 15px;
       border: 3px solid black;
-      color: salmon;
+      color: @white;
       font-size: 20px;
       font-weight: bold;
       &:hover {
-        background-color: @lambda-light-red;
+        background-color: @Button-colors;
       }
     }
     .dropdown-content {
       width: 100%;
       position: absolute;
-      background-color: @white;
       display: flex;
       flex-direction: column;
       align-items: center;  
       margin-top: 40px; //previus 10px
       border: 2.5px solid @lambda-red;
+      background-color: @white;
     }
     .dropdown-link {
       width: 100%;
@@ -32,10 +32,10 @@
       padding: 15px 0;
       font-size: 18px;
       text-decoration: none;
-      color: @lambda-red;
+      color: @Button-colors;
       &:hover {
         color: @white;
-        background-color: @lambda-red;
+        background-color: @Button-colors;
       }
     }
     .dropdown-hidden {
@@ -45,5 +45,7 @@
   @media(max-width: 800px){
     .dropdown{
       display: flex;
+
     }
+    
   }
