@@ -46,8 +46,8 @@ body {
     flex-direction: row;
     width: 1000px;
     margin: 0 auto;
-    background-color: rgb(213, 241, 241);
-    border: #67696c 3px solid;
+    background-color: white;
+    border: #972b3a 3px solid;
     line-height: 1.4;
     padding: 5px;
 
@@ -62,15 +62,21 @@ body {
 
 /* @media query */
 @media @mobile {
-
+    border-color: white;
      width: 500px;  
      line-height: 1.4;
      .btm-text{
-    
-        display: flex;
+       
+        display: none;
         flex-direction: column;
         margin: 0 auto;
-         width: 50%;   
+         
+
+         p {
+
+            display: hidden;
+
+         }
         
         }   
 
