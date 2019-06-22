@@ -228,7 +228,7 @@ h5 {
 .header-container nav a {
   margin: 0 61px 0;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #1a39e5;
 }
 @media (max-width: 800px) {
