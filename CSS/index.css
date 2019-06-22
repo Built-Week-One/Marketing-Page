@@ -39,7 +39,7 @@
   border: 1px solid #0e0e33;
 }
 .carousel .left-button {
-  top: 40%;
+  top: 50%;
   left: 20px;
   transform: translate(0, -50%);
 }
@@ -435,6 +435,9 @@ footer {
 footer p {
   margin-top: 50px;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   display: table;
   text-align: left;
@@ -477,8 +480,9 @@ body {
   }
   .container .btm-text {
     display: none;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 auto;
+    width: 50%;
   }
   .container .btm-text p {
     display: hidden;
@@ -495,4 +499,5 @@ p {
   margin: 10px 0;
   padding: 5px;
   line-height: 1.15;
+  text-align: justify;
 }
