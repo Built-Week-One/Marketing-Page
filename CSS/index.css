@@ -318,12 +318,12 @@ body {
   margin: auto 0;
   font-family: 'Roboto', sans-serif;
   color: #67696c;
-  font-size: 16px;
+  font-size: 0.75rem;
   font-weight: 300;
   overflow-x: hidden;
   height: 100%;
-  background-color: azure;
-  line-height: 3.5;
+  background-color: #d1ebf5;
+  line-height: 2.75;
 }
 .header-container {
   background-color: #65BFD2;
@@ -331,8 +331,11 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 900px;
+  width: 500px;
   margin: 0 auto;
+  background-color: #d5f1f1;
+  border: #67696c 3px solid;
+  line-height: 1.4;
   /* @media query */
 }
 @media only screen and (max-width: 500px) {
@@ -353,7 +356,6 @@ body {
   margin: 0 auto;
   width: 85%;
   padding: 2px 1px 2px 1px;
-  border: #67696c 1px dashed;
 }
 p {
   margin: 10px 0;
