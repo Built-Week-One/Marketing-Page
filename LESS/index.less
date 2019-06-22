@@ -43,12 +43,23 @@ body {
 .container {
 
     display: flex;
-    flex-direction: column;
-    width: 500px;
+    flex-direction: row;
+    width: 1000px;
     margin: 0 auto;
     background-color: rgb(213, 241, 241);
     border: #67696c 3px solid;
     line-height: 1.4;
+    padding: 5px;
+
+    h2 {
+        font-size: 30px;
+        color: black;
+    }
+
+    li {
+        margin-left:30px;  
+     }
+
 /* @media query */
 @media @mobile {
 
@@ -70,9 +81,9 @@ body {
 .btm-text{
     
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 auto;
-    width: 85%;     
+    width: 100%;     
     padding: 2px 1px 2px 1px;
     
    
