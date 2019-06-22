@@ -506,8 +506,9 @@ body {
   }
   .container .btm-text {
     display: none;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 auto;
+    width: 50%;
   }
   .container .btm-text p {
     display: hidden;
