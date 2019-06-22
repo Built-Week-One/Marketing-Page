@@ -1,21 +1,23 @@
 
 .carousel {
 
+  border: 5px solid black;
+
   .width-carousel();
     .flex(center, center);
-    height: 50%;
+    height: 500px;
     position: relative;
     overflow: hidden;
-    margin-top: 5px;
-    @media(min-width: 100%){
-      width: 100%;
+    margin-top: 16px;
+    @media(min-width: 1200px){
+      width: 1200px;
     }
     .left-button, .right-button {
       .flex(center);
       color: @color-white;
       background-color: @color-primary;
-      font-size: 30px;
-      border-radius: 30%;
+      font-size: 40px;
+      border-radius: 50%;
       position: absolute;
       width: 50px;
       height: 50px;
@@ -32,8 +34,8 @@
       transform: translate(0, -50%);
     }
     .right-button {
-      top: 40%; 
-      right: 20px;
+      top: 50%; 
+      right: 25px;
       transform: translate(0, -50%);
     }
     img {
