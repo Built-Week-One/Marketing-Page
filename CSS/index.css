@@ -39,7 +39,7 @@
   border: 1px solid #0e0e33;
 }
 .carousel .left-button {
-  top: 40%;
+  top: 50%;
   left: 20px;
   transform: translate(0, -50%);
 }
