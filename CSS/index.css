@@ -84,6 +84,17 @@ html {
     display: none;
   }
 }
+#luncherHeaderImg {
+  width: 298px;
+  height: 95px;
+}
+@media only screen and (max-width: 500px) {
+  #luncherHeaderImg {
+    width: 149px;
+    height: 47.5px;
+    margin: 0 auto;
+  }
+}
 .width-carousel {
   width: 85%;
 }
@@ -431,12 +442,18 @@ footer {
   height: 103px;
   border-bottom: 1px solid #f4f4f4;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  position: fixed;
   background-color: #65BFD2;
   bottom: 0;
   left: 0;
 }
 footer p {
   margin-top: 50px;
+}
+@media only screen and (max-width: 500px) {
+  footer {
+    position: relative;
+  }
 }
 .text-Header {
   display: flex;
@@ -560,8 +577,10 @@ footer p {
   color: red;
 }
 html {
+  max-width: 100%;
   position: relative;
   height: 100%;
+  overflow-x: hidden;
 }
 body {
   display: table;
@@ -625,4 +644,16 @@ p {
   padding: 5px;
   line-height: 1.15;
   text-align: justify;
+}
+#luncherIMG {
+  width: 350px;
+  height: auto;
+}
+@media only screen and (max-width: 500px) {
+  #luncherIMG {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 0px 0px 125px;
+  }
 }
