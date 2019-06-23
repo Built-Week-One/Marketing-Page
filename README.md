@@ -20,15 +20,15 @@ Stretch Goal: Allow a 2nd user type (patrons) to login and donate to a school. "
 # MVP work - Project should incorporate all of the listed MVP features
 **Student's work demonstrates that all MVP features were built**
 
-[ ]  Team contribution, Communicated changes to team, performed proper git merges and pull requests to get code to the codebase.
+[x]  Team contribution, Communicated changes to team, performed proper git merges and pull requests to get code to the codebase.
 
-[ ]  HTML/CSS, Student layed out the design that matches the example well.  CSS fundamentals such as: box model, flexbox, and positioning were used appropriately. 
+[x]  HTML/CSS, Student layed out the design that matches the example well.  CSS fundamentals such as: box model, flexbox, and positioning were used appropriately. 
 
-[ ]  Responsiveness, Phone views look professional at 500px and below and Desktop views look professional at 1000px and above. No horizontal scrollbars exist.
+[x]  Responsiveness, Phone views look professional at 500px and below and Desktop views look professional at 1000px and above. No horizontal scrollbars exist.
 
-[ ]  JavaScript Fundamentals, Objects were created, Array methods were used, code is readable. No errors in the console when opening the web page.
+[x]  JavaScript Fundamentals, Objects were created, Array methods were used, code is readable. No errors in the console when opening the web page.
 
-[ ]  Applied JavaScript, Event Listeners were used, DOM manipulation occured.
+[x]  Applied JavaScript, Event Listeners were used, DOM manipulation occured.
 
 # Student's work demonstrates that all MVP features were built and the student went above and beyond the project.
 
