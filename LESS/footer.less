@@ -5,12 +5,20 @@ footer{
     border-bottom: 1px solid #f4f4f4;
     box-shadow: 0 2px 12px rgba(0,0,0,.5);
     display:flex;
+    position: fixed;
     justify-content: center;
     background-color: #65BFD2;
     bottom:0;
     left:0;
      p{
         margin-top: 50px;
+     }
+
+     // Footer Position Relative in mobile viewport. 
+     @media @mobile {
+
+      position: relative;
+
      }
 
 }
