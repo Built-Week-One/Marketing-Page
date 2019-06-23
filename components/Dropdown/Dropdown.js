@@ -1,4 +1,4 @@
-// dropdown by Carlos Mitchell
+// dropDown by Carlos Mitchell
 
 class Dropdown {
     constructor(element) {
