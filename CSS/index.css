@@ -84,6 +84,13 @@
   width: 298px;
   height: 95px;
 }
+@media only screen and (max-width: 500px) {
+  #luncherHeaderImg {
+    width: 149px;
+    height: 47.5px;
+    margin: 0 auto;
+  }
+}
 .width-carousel {
   width: 85%;
 }
