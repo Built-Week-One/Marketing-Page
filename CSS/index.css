@@ -507,3 +507,15 @@ p {
   line-height: 1.15;
   text-align: justify;
 }
+#luncherIMG {
+  width: 350px;
+  height: auto;
+}
+@media only screen and (max-width: 500px) {
+  #luncherIMG {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 0px 0px 125px;
+  }
+}
