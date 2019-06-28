@@ -74,7 +74,7 @@ html {
   margin: 0 40px 0;
   text-decoration: none;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #FFFF;
 }
 .header-container nav a:hover {
   color: #444B55;
@@ -414,7 +414,7 @@ img.bg {
   height: auto;
   background-color: #50D1BF;
   padding: 20px;
-  color: #ffffff;
+  color: #FFFF;
   font-size: 1.8rem;
   transition-duration: 0.2s;
   border-radius: 8px;
@@ -424,7 +424,7 @@ img.bg {
 .form .signup-btn button:hover {
   transform: scale(1.04);
   background-color: #50D1BF;
-  color: #ffffff;
+  color: #FFFF;
 }
 input[type=text],
 input[type=text] {
@@ -567,7 +567,7 @@ footer p {
 .donate-btn .donateBtn:hover {
   transform: scale(1.04);
   background-color: #50D1BF;
-  color: #ffffff;
+  color: #FFFF;
 }
 .thankYou {
   display: none;
