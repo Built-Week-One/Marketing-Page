@@ -97,7 +97,7 @@ html {
 }
 @media only screen and (max-width: 800px) {
   #luncherHeaderImg {
-    margin: 30px auto;
+    margin: 12px auto;
   }
 }
 .width-carousel {
@@ -612,8 +612,7 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  width: 1000px;
-  margin: 0 auto;
+  width: 40%;
   background-color: white;
   border: #972b3a 3px solid;
   line-height: 1.4;
@@ -657,7 +656,7 @@ p {
   text-align: justify;
 }
 #luncherIMG {
-  width: 350px;
+  width: 100%;
   height: auto;
 }
 @media only screen and (max-width: 500px) {
@@ -666,5 +665,10 @@ p {
     height: auto;
     margin: 0 auto;
     padding: 0px 0px 0px 125px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 100%;
   }
 }
