@@ -25,9 +25,8 @@ body {
 
 
 .header-container {
-
-    
-    background-color: #65BFD2;
+     
+    background-color: @color-primary;
      
 }
 
@@ -36,16 +35,15 @@ body {
     display: flex;
     flex-direction: row;
     width: 40%;
-    //margin: 0 auto;
-    background-color: white;
-    box-shadow: 5px 9px 16px #5E6164;
+    background-color: @color-white;
+    box-shadow: 5px 9px 16px @shuttle-gray;
     border-radius: 3px;
     line-height: 1.4;
     padding: 5px;
 
     h2 {
         font-size: 30px;
-        color: black;
+        color: @color-black;
     }
 
     li {
@@ -54,7 +52,7 @@ body {
 
 /* @media query */
 @media @mobile {
-    border-color: white;
+    border-color:  @color-white;
      width: 500px;  
      line-height: 1.4;
      
