@@ -39,7 +39,7 @@
   border: 1px solid #0e0e33;
 }
 .carousel .left-button {
-  top: 40%;
+  top: 50%;
   left: 20px;
   transform: translate(0, -50%);
 }
@@ -52,8 +52,12 @@
   width: 85%;
   display: none;
 }
+html {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 .header-container {
-  position: fixed;
   display: flex;
   width: 100%;
   height: 120px;
@@ -78,6 +82,17 @@
 @media (max-width: 800px) {
   nav {
     display: none;
+  }
+}
+#luncherHeaderImg {
+  width: 298px;
+  height: 95px;
+}
+@media only screen and (max-width: 500px) {
+  #luncherHeaderImg {
+    width: 149px;
+    height: 47.5px;
+    margin: 0 auto;
   }
 }
 .width-carousel {
@@ -266,11 +281,6 @@ h5 {
     display: flex;
   }
 }
-html {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-}
 .main-container {
   display: flex;
   flex-direction: column;
@@ -364,6 +374,8 @@ img.bg {
   }
 }
 .form {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   border: 2px solid #F1F1F1;
   border-radius: 6px;
@@ -422,18 +434,153 @@ input[type=text]:focus {
   font-size: 1.5rem;
 }
 footer {
+  margin-top: 400px;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: 103px;
   border-bottom: 1px solid #f4f4f4;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
+  position: fixed;
   background-color: #65BFD2;
   bottom: 0;
   left: 0;
 }
 footer p {
   margin-top: 50px;
+}
+@media only screen and (max-width: 500px) {
+  footer {
+    position: relative;
+  }
+}
+.text-Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 104px;
+}
+.text-Header h1 {
+  font-size: 3.5rem;
+}
+.text-Header p {
+  font-size: 1.5rem;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  max-width: 1144px;
+  flex-wrap: wrap;
+  margin: 25px auto;
+}
+.cards-container .cards {
+  justify-content: center;
+  width: 287px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+  padding: 24px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 5px 9px 16px #5E6164;
+}
+.cards-container .cards .amount {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.cards-container input[type=text],
+.cards-container input[type=text] {
+  width: 715px;
+  height: 111px;
+  margin-top: 31px;
+  background: white;
+  font-size: 2.2rem;
+  border-radius: 3px;
+  box-shadow: 5px 9px 16px #5E6164;
+}
+.tabs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.tabs .TypesDonation {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.tabs .TypesDonation .tab {
+  width: 450px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: #fff;
+  background-color: #50D1BF;
+  margin: 0 5px;
+  padding: 2px 10px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.tabs .TypesDonation .active-tab {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+}
+.donate-btn {
+  display: flex;
+  justify-content: center;
+}
+.donate-btn .donateBtn {
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  width: 36%;
+  height: 97px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.donate-btn .donateBtn:hover {
+  transform: scale(1.04);
+  background-color: #50D1BF;
+  color: #ffffff;
+}
+.thankYou {
+  display: none;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 889px;
+  height: 400px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 3rem;
+  border-radius: 3px;
+}
+.thankYou .theMoney {
+  color: red;
+}
+html {
+  max-width: 100%;
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
 }
 body {
   display: table;
@@ -477,8 +624,9 @@ body {
   }
   .container .btm-text {
     display: none;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 auto;
+    width: 50%;
   }
   .container .btm-text p {
     display: hidden;
@@ -495,4 +643,17 @@ p {
   margin: 10px 0;
   padding: 5px;
   line-height: 1.15;
+  text-align: justify;
+}
+#luncherIMG {
+  width: 350px;
+  height: auto;
+}
+@media only screen and (max-width: 500px) {
+  #luncherIMG {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 0px 0px 125px;
+  }
 }

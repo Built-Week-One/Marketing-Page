@@ -1,7 +1,14 @@
 // header Menu for all pages 
 
+html{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
 .header-container{
-    position: fixed;
+    //position: fixed;
     display:flex;
     width: 100%;
     height: 120px;
@@ -39,3 +46,20 @@
           display: none;
         }
         }
+
+        #luncherHeaderImg {
+
+          width: 298px;
+          height: 95px;
+
+          @media @mobile {
+
+            width: 149px;
+            height: 47.5px;
+            margin: 0 auto;
+
+
+          }
+
+
+        }       
