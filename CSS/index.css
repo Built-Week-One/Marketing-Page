@@ -327,11 +327,11 @@ h5 {
   justify-content: center;
   width: 361px;
   height: 239px;
-  border: 1px solid #9ba0a3;
+  border: 1px solid #9BA0A3;
   border-radius: 3px;
   text-decoration: none;
   margin-top: 27px;
-  background-color: white;
+  background-color: #fff;
   box-shadow: 5px 9px 16px #5E6164;
 }
 .container-cards .card h4 {
@@ -385,7 +385,7 @@ img.bg {
 .form {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #fff;
   border: 2px solid #F1F1F1;
   border-radius: 6px;
   margin: 100px auto;
@@ -406,7 +406,7 @@ img.bg {
   font-size: 20px;
 }
 .form hr {
-  border: 1px solid #f1f1f1;
+  border: 1px solid #fff;
   margin-bottom: 25px;
 }
 .form .signup-btn button {
@@ -433,7 +433,7 @@ input[type=text] {
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: #fff;
   font-size: 1.2rem;
 }
 input[type=text]:focus,
