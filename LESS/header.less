@@ -4,12 +4,13 @@ html{
   max-width: 100%;
   display: flex;
   flex-direction: column;
+ 
 }
 
 
 .header-container{
-    //position: fixed;
     display:flex;
+    justify-content:flex-end;
     width: 100%;
     height: 120px;
     box-shadow: 0 2px 12px rgba(0,0,0,.5);
@@ -20,17 +21,16 @@ html{
     justify-content:flex-end; 
     width: 100%;
     margin-top: 31px;
-    //border: 1px solid salmon;
-    //margin-left: 100px;
+    
     a{
-        margin: 0 61px 0;
+        margin: 0 40px 0;
         text-decoration: none;
         font-size: 1.5rem;
         color: @white;
 
         &:hover{
         color: #444B55;
-        font-weight: bold;
+        
         
         }
 
@@ -41,11 +41,14 @@ html{
 
     }
     }
-    @media(max-width: 800px){
-        nav{
+
+    @media @tablet{
+        .header-container nav{
           display: none;
         }
         }
+
+
 
         #luncherHeaderImg {
 
@@ -63,3 +66,10 @@ html{
 
 
         }       
+
+
+        @media @tablet{
+          #luncherHeaderImg{
+            margin: 30px auto;
+          }
+        }
