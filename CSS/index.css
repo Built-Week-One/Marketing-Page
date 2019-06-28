@@ -59,6 +59,7 @@ html {
 }
 .header-container {
   display: flex;
+  justify-content: flex-end;
   width: 100%;
   height: 120px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
@@ -70,17 +71,16 @@ html {
   margin-top: 31px;
 }
 .header-container nav a {
-  margin: 0 61px 0;
+  margin: 0 40px 0;
   text-decoration: none;
   font-size: 1.5rem;
   color: #ffffff;
 }
 .header-container nav a:hover {
   color: #444B55;
-  font-weight: bold;
 }
-@media (max-width: 800px) {
-  nav {
+@media only screen and (max-width: 800px) {
+  .header-container nav {
     display: none;
   }
 }
@@ -93,6 +93,11 @@ html {
     width: 149px;
     height: 47.5px;
     margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #luncherHeaderImg {
+    margin: 30px auto;
   }
 }
 .width-carousel {
@@ -252,11 +257,14 @@ h5 {
   position: absolute;
   cursor: pointer;
   margin-top: 20px;
-  background-color: #65BFD2;
+  background-color: #ff644f;
   display: none;
 }
 .dropdown .dropdown-button {
   padding: 15px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #fff;
 }
 .dropdown-content {
   width: 100%;
@@ -264,7 +272,9 @@ h5 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 83px;
+  background-color: #65BFD2;
+  border: 1px solid #fff;
 }
 .dropdown-link {
   width: 100%;
@@ -272,11 +282,12 @@ h5 {
   padding: 15px 0;
   font-size: 18px;
   text-decoration: none;
+  color: #fff;
 }
 .dropdown-hidden {
   display: none;
 }
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .dropdown {
     display: flex;
   }
